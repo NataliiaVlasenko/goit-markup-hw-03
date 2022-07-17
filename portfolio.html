@@ -11,36 +11,50 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    
     <header class="page-header">
-      <a href="/" class="logo link-global">Web<span class="logo-part link-global">Studio</span></a>
+      <div class="container">
+          
+      <a href="/" class="logo link-global"
+        >Web<span class="logo-part link-global">Studio</span></a
+      >
 
       <nav>
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link-nav link-global">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="link-nav current link-global">Портфолио</a>
+          <li  class="item">
+            <a href="./index.html" class="link-nav link-global">Студия</a>
           </li>
-          <li><a href="/" class="link-nav link-global">Контакты</a></li>
+          <li class="item">
+            <a href="./portfolio.html" class="link-nav current link-global"
+              >Портфолио</a
+            >
+          </li>
+          <li class="item"><a href="/" class="link-nav link-global">Контакты</a></li>
         </ul>
       </nav>
       <ul class="auth-nav list">
-        <li>
+        <li class="item">
           <a href="emailto:info@devstudio.com" class="auth-link link-global"
             >info@devstudio.com</a
           >
         </li>
-        <li>
-          <a href="tel:+380961111111" class="auth-link link-global"> +38 096 111 11 11</a>
+        <li class="item">
+          <a href="tel:+380961111111" class="auth-link link-global">
+            +38 096 111 11 11</a
+          >
         </li>
       </ul>
+    </div>
     </header>
     <main>
       <section class="section">
+      <div class="container">
         <h1 class="visually-hidden">projects</h1>
-        <ul class="list">
+        <ul class="filtr-button-list">
           <li><button type="button" class="filtr-button">Все</button></li>
           <li><button type="button" class="filtr-button">Веб-сайты</button></li>
           <li>
@@ -50,124 +64,194 @@
           <li><button type="button" class="filtr-button">Маркетинг</button></li>
         </ul>
 
-        <ul class="list">
-          <li class="project-example">
-            <a href="#" target="_blank"  class="link-global">
+        <ul class="project-example list">
+          <li class="item">
+            <article class="card">
+            <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf1.jpg"
                 alt="portfolio1"
-                                width="370"
+                width="370"
                 height="294"
               />
+            </div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Технокряк</h2>
               <p class="projects-def">Веб-сайт</p>
+            </div>
             </a>
+          </article>
           </li>
-          <li class="project-example">
-            <a href="#" target="_blank" class="link-global">
+
+          <li class="item">
+            <article class="card">
+              <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf2.jpg"
                 alt="portfolio2"
                 width="370"
                 height="294"
               />
+              </div>
+              <div class="card-content">
               <h2 class="projects-ex-title">
                 Постер New Orlean vs Golden Star
               </h2>
               <p class="projects-def">Дизайн</p>
+              </div>
             </a>
+            </article>
           </li>
-          <li class="project-example">
+
+
+          <li class="item">
+            <article class="card">
+            
             <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf3.jpg"
                 alt="portfolio3"
                 width="370"
                 height="294"
               />
+              </div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Ресторан Seafood</h2>
               <p class="projects-def">Приложение</p>
+              </div>
             </a>
+          </article>
           </li>
-          <li class="project-example">
+
+
+          <li class="item">
+            <article class="card">
+            
             <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf4.jpg"
                 alt="portfolio4"
                 width="370"
                 height="294"
-              />
+              /></div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Проект Prime</h2>
               <p class="projects-def">Маркетинг</p>
+            </div>
             </a>
+          </article>
           </li>
-          <li class="project-example">
+
+
+          <li class="item">
+            <article class="card">
+            
             <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf5.jpg"
                 alt="portfolio5"
                 width="370"
                 height="294"
-              />
+              /></div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Проект Boxes</h2>
               <p class="projects-def">Приложение</p>
+            </div>
             </a>
+          </article>
           </li>
-          <li class="project-example">
+
+
+          <li class="item">
+            <article class="card">
+            
             <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf6.jpg"
                 alt="portfolio6"
                 width="370"
                 height="294"
-              />
+              /></div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Inspiration has no Borders</h2>
               <p class="projects-def">Веб-сайт</p>
+            </div>
             </a>
+          </article>
           </li>
-          <li class="project-example">
+
+          <li class="item">
+            <article class="card">
+            
             <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf7.jpg"
                 alt="portfolio7"
                 width="370"
                 height="294"
-              />
+              /></div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Издание Limited Edition</h2>
               <p class="projects-def">Дизайн</p>
+            </div>
             </a>
+          </article>
           </li>
-          <li class="project-example">
+
+          <li class="item">
+            <article class="card">
+            
             <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf8.jpg"
                 alt="portfolio8"
                 width="370"
                 height="294"
-              />
+              /></div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Проект LAB</h2>
-              <p class="projects-def">Маркетинг</p>
+              <p class="projects-def">Маркетинг</p></div>
             </a>
+          </article>
           </li>
 
-          <li class="project-example">
+          <li class="item">
+            <article class="card"></article>
+           
             <a href="#" target="_blank" class="link-global">
+              <div class="card-thumb">
               <img
                 src="./images/portf9.jpg"
                 alt="portfolio9"
                 width="370"
                 height="294"
-              />
+              /></div>
+              <div class="card-content">
               <h2 class="projects-ex-title">Growing Business</h2>
-              <p class="projects-def">Приложение</p>
+              <p class="projects-def">Приложение</p></div>
             </a>
+          </article>
           </li>
         </ul>
+
+
+      </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a href="/" class="logo link-global">Web<span class="logo-part link-global">Studio</span></a>
+      <div class="container">
+      <a href="/" class="logo link-global"
+        >Web<span class="logo-part link-global">Studio</span></a
+      >
       <address>
         <ul class="list">
           <li>
@@ -180,7 +264,9 @@
             >
           </li>
           <li>
-            <a href="mailto:info@example.com" class="adress contacts link-global"
+            <a
+              href="mailto:info@example.com"
+              class="adress contacts link-global"
               >info@example.com</a
             >
           </li>
@@ -191,6 +277,8 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
+  </div>
   </body>
 </html>
